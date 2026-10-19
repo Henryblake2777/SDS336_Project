@@ -1,0 +1,8 @@
+# Python packages needed to run SDS336_Project_Midterm.ipynb (install with: pip install -r requirements.txt)
+jupyter>=1.0
+matplotlib>=3.10.8
+numpy>=2.3.5
+pandas>=2.3.3
+scikit-learn>=1.8.0
+statsmodels>=0.14
+xgboost>=3.0
