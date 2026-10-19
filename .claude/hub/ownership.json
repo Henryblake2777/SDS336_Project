@@ -1,0 +1,11 @@
+{
+  "coordinator": { "owns": [".claude/hub/grants/**", ".claude/hub/ownership.json"] },
+  "data": {
+    "owns": ["SDS336_Project_Midterm.ipynb", "*.ipynb", "*.py", "data/**", "figures/**"],
+    "test": "python3 -c \"import json,sys; json.load(open('SDS336_Project_Midterm.ipynb')); print('notebook JSON ok')\"",
+    "notes": "Single-notebook data science project. CSV lives outside the repo at a user-specific absolute path; cells cannot be re-executed here unless the path is updated. Edit cells with NotebookEdit."
+  },
+  "docs": { "owns": ["README.md", "docs/**"], "test": "true" },
+  "reviewer": { "owns": [] },
+  "shared": ["CLAUDE.md", ".gitignore", "requirements.txt"]
+}
